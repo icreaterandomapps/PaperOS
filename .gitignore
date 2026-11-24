@@ -1,0 +1,19 @@
+# Local build/test artifacts
+*.log
+*.pcap
+__pycache__/
+*.pyc
+
+# Screenshots and ad-hoc verification images
+paperos_*.png
+screen.png
+screen_art.ps1
+verify.ps1
+capture.py
+serialtest.py
+vnc_capture.py
+
+# Old archives and one-off results
+*.7z
+browser_check_result.txt
+qemu.pid
